@@ -15,8 +15,8 @@ public class User {
     private String  userName;
     private String  password;
     private String name;
-    private int age;
-    private int sex;
+    private Integer age;
+    private Integer sex;
     private Date birthday;
     private String note;
     private Date created;
@@ -54,19 +54,19 @@ public class User {
         this.name = name;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 
-    public int getSex() {
+    public Integer getSex() {
         return sex;
     }
 
-    public void setSex(int sex) {
+    public void setSex(Integer sex) {
         this.sex = sex;
     }
 
